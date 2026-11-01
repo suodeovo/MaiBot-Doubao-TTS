@@ -1,0 +1,32 @@
+# 本机凭据及配置
+/config.toml
+/config_back/
+.env
+.env.*
+!.env.example
+*.key
+*.token
+
+# 缓存、日志、音频和备份
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.log
+*.bak
+*.bak-*
+*.tmp
+*.mp3
+*.wav
+*.pcm
+*.ogg
+*.silk
+
+# 发布产物
+/dist/
+*.zip
+*.egg-info/
+build/
+.idea/
+.vscode/

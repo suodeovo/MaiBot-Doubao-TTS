@@ -1,0 +1,27 @@
+[plugin]
+enabled = true
+config_version = "1.0.0"
+command_enabled = true
+cooldown_seconds = 3.0
+max_text_length = 300
+
+[credential]
+# API Key 与 AppID + Access Key 二选一；两种都填时优先使用 API Key。
+api_key = ""
+app_id = ""
+access_key = ""
+resource_id = "seed-tts-2.0"
+
+[tts]
+speaker = "zh_female_xiaohe_uranus_bigtts"
+audio_format = "mp3"
+sample_rate = 24000
+speech_rate = 0
+loudness_rate = 0
+emotion_enabled = true
+timeout_seconds = 60
+retry_times = 1
+cache_size = 16
+
+[debug]
+log_synthesis = true
